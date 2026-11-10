@@ -21,6 +21,8 @@ import {
   type LucideIcon,
 } from "lucide-react";
 
+const heroArt = `${import.meta.env.BASE_URL}hero.png`;
+
 const navLinks = [
   { label: "Home", href: "#home" },
   { label: "About Us", href: "#about" },
@@ -214,7 +216,7 @@ export default function Home() {
         <section className="hero" id="home" aria-labelledby="hero-title">
           <img
             className="hero-art"
-            src="/manus-storage/arbtech-hero_e158fcf6.png"
+            src={heroArt}
             alt="A glowing digital globe above a laptop in a modern, blue-lit technology workspace"
           />
           <div className="hero-grid" aria-hidden="true" />

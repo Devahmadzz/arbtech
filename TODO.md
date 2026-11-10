@@ -19,3 +19,9 @@
 
 ## Contact and quote requests
 - [x] Provide a Contact and quote-request section with clear inquiry fields and calls to action. The preview form validates required fields and explicitly indicates it does not send or store submissions.
+
+## GitHub Pages deployment
+- [x] Make `Devahmadzz/arbtech` public as explicitly requested so GitHub Pages is available on the current plan; this makes repository code and history public.
+- [x] Build the Vite project for the repository site path `/arbtech/`, and serve the hero artwork from files committed to the repository rather than Manus-only storage.
+- [x] Add a GitHub Actions workflow that builds the static site and deploys the built output through GitHub Pages on pushes to `main` and on manual workflow dispatch.
+- [ ] Confirm a successful Pages deployment and that the live site is available at `https://devahmadzz.github.io/arbtech/`.
